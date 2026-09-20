@@ -1,3 +1,5 @@
+import 'package:firebase_crud3/auth_service.dart';
+import 'package:firebase_crud3/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'crud_service.dart';
@@ -16,6 +18,18 @@ class HomePage extends StatelessWidget {
         title: const Text('Firebase Lastname'),
         centerTitle: true,
         backgroundColor: Colors.teal,
+        actions: [
+          IconButton(
+              icon: Icon(Icons.logout),
+              onPressed: () {
+                AuthService().signOut();
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (_) => LoginPage()),
+                );
+              },
+            ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.teal,
