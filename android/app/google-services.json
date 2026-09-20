@@ -12,7 +12,12 @@
           "package_name": "com.example.firebase_crud3"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "889888199226-o57ledqo2gu3rnfbcmep7hpb4t8lobul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCDYcNFz9CxuUZqMzKaDYAk-sCKUEDVvRk"
@@ -20,7 +25,55 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889888199226-o57ledqo2gu3rnfbcmep7hpb4t8lobul.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "889888199226-qkjnfsrrupcjgj0i8krmceatau4us4qj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseCrud3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889888199226:android:c7328a89c67aeac0cfdb03",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889888199226-o57ledqo2gu3rnfbcmep7hpb4t8lobul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDYcNFz9CxuUZqMzKaDYAk-sCKUEDVvRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889888199226-o57ledqo2gu3rnfbcmep7hpb4t8lobul.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "889888199226-qkjnfsrrupcjgj0i8krmceatau4us4qj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseCrud3"
+              }
+            }
+          ]
         }
       }
     }
